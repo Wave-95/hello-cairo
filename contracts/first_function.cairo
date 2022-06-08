@@ -11,3 +11,10 @@ func array_sum(arr : felt*, size) -> (sum):
     let (sum_of_rest) = array_sum(arr=arr + 1, size=size - 1)
     return (sum=[arr] + sum_of_rest)
 end
+
+func main():
+    alloc_locals
+    local array : felt* = new (1,2,3)
+    let (local sum) = array_sum(array, 3)
+    return()
+end

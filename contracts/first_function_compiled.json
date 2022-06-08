@@ -1,0 +1,1065 @@
+{
+    "attributes": [],
+    "builtins": [],
+    "data": [
+        "0x208b7fff7fff7ffe",
+        "0x1104800180018000",
+        "0x800000000000011000000000000000000000000000000000000000000000000",
+        "0x482480017ffe8000",
+        "0x800000000000010ffffffffffffffffffffffffffffffffffffffffffffffff",
+        "0x208b7fff7fff7ffe",
+        "0x20780017fff7ffd",
+        "0x5",
+        "0x480680017fff8000",
+        "0x0",
+        "0x208b7fff7fff7ffe",
+        "0x482680017ffc8000",
+        "0x1",
+        "0x482680017ffd8000",
+        "0x800000000000011000000000000000000000000000000000000000000000000",
+        "0x1104800180018000",
+        "0x800000000000010fffffffffffffffffffffffffffffffffffffffffffffff8",
+        "0x480280007ffc8000",
+        "0x48307ffe7fff8000",
+        "0x208b7fff7fff7ffe",
+        "0x40780017fff7fff",
+        "0x2",
+        "0x480680017fff8000",
+        "0x1",
+        "0x480680017fff8000",
+        "0x2",
+        "0x480680017fff8000",
+        "0x3",
+        "0x1104800180018000",
+        "0x800000000000010ffffffffffffffffffffffffffffffffffffffffffffffe6",
+        "0x482480017fff8000",
+        "0x800000000000010fffffffffffffffffffffffffffffffffffffffffffffffe",
+        "0x40137fff7fff8000",
+        "0x480a80007fff8000",
+        "0x480680017fff8000",
+        "0x3",
+        "0x1104800180018000",
+        "0x800000000000010ffffffffffffffffffffffffffffffffffffffffffffffe3",
+        "0x40137fff7fff8001",
+        "0x208b7fff7fff7ffe"
+    ],
+    "debug_info": {
+        "file_contents": {},
+        "instruction_locations": {
+            "0": {
+                "accessible_scopes": [
+                    "starkware.cairo.lang.compiler.lib.registers",
+                    "starkware.cairo.lang.compiler.lib.registers.get_fp_and_pc"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 0,
+                        "offset": 0
+                    },
+                    "reference_ids": {}
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 46,
+                    "end_line": 6,
+                    "input_file": {
+                        "filename": "/Users/victorwu/cairo/cairo_venv/lib/python3.9/site-packages/starkware/cairo/lang/compiler/lib/registers.cairo"
+                    },
+                    "start_col": 5,
+                    "start_line": 6
+                }
+            },
+            "1": {
+                "accessible_scopes": [
+                    "starkware.cairo.lang.compiler.lib.registers",
+                    "starkware.cairo.lang.compiler.lib.registers.get_ap"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 1,
+                        "offset": 0
+                    },
+                    "reference_ids": {}
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 43,
+                    "end_line": 15,
+                    "input_file": {
+                        "filename": "/Users/victorwu/cairo/cairo_venv/lib/python3.9/site-packages/starkware/cairo/lang/compiler/lib/registers.cairo"
+                    },
+                    "start_col": 28,
+                    "start_line": 15
+                }
+            },
+            "3": {
+                "accessible_scopes": [
+                    "starkware.cairo.lang.compiler.lib.registers",
+                    "starkware.cairo.lang.compiler.lib.registers.get_ap"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 1,
+                        "offset": 2
+                    },
+                    "reference_ids": {
+                        "starkware.cairo.lang.compiler.lib.registers.get_ap.fp_val": 0,
+                        "starkware.cairo.lang.compiler.lib.registers.get_ap.pc_val": 1
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 30,
+                    "end_line": 16,
+                    "input_file": {
+                        "filename": "/Users/victorwu/cairo/cairo_venv/lib/python3.9/site-packages/starkware/cairo/lang/compiler/lib/registers.cairo"
+                    },
+                    "start_col": 20,
+                    "start_line": 16
+                }
+            },
+            "5": {
+                "accessible_scopes": [
+                    "starkware.cairo.lang.compiler.lib.registers",
+                    "starkware.cairo.lang.compiler.lib.registers.get_ap"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 1,
+                        "offset": 3
+                    },
+                    "reference_ids": {
+                        "starkware.cairo.lang.compiler.lib.registers.get_ap.fp_val": 0,
+                        "starkware.cairo.lang.compiler.lib.registers.get_ap.pc_val": 1
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 31,
+                    "end_line": 16,
+                    "input_file": {
+                        "filename": "/Users/victorwu/cairo/cairo_venv/lib/python3.9/site-packages/starkware/cairo/lang/compiler/lib/registers.cairo"
+                    },
+                    "start_col": 5,
+                    "start_line": 16
+                }
+            },
+            "6": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.array_sum"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 2,
+                        "offset": 0
+                    },
+                    "reference_ids": {
+                        "__main__.array_sum.arr": 2,
+                        "__main__.array_sum.size": 3
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 7,
+                    "end_line": 7,
+                    "input_file": {
+                        "filename": "first_function.cairo"
+                    },
+                    "start_col": 5,
+                    "start_line": 7
+                }
+            },
+            "8": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.array_sum"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 2,
+                        "offset": 0
+                    },
+                    "reference_ids": {
+                        "__main__.array_sum.arr": 2,
+                        "__main__.array_sum.size": 3
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 24,
+                    "end_line": 8,
+                    "input_file": {
+                        "filename": "first_function.cairo"
+                    },
+                    "start_col": 23,
+                    "start_line": 8
+                }
+            },
+            "10": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.array_sum"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 2,
+                        "offset": 1
+                    },
+                    "reference_ids": {
+                        "__main__.array_sum.arr": 2,
+                        "__main__.array_sum.size": 3
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 25,
+                    "end_line": 8,
+                    "input_file": {
+                        "filename": "first_function.cairo"
+                    },
+                    "start_col": 9,
+                    "start_line": 8
+                }
+            },
+            "11": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.array_sum"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 2,
+                        "offset": 0
+                    },
+                    "reference_ids": {
+                        "__main__.array_sum.arr": 2,
+                        "__main__.array_sum.size": 3
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 46,
+                    "end_line": 11,
+                    "input_file": {
+                        "filename": "first_function.cairo"
+                    },
+                    "start_col": 39,
+                    "start_line": 11
+                }
+            },
+            "13": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.array_sum"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 2,
+                        "offset": 1
+                    },
+                    "reference_ids": {
+                        "__main__.array_sum.arr": 2,
+                        "__main__.array_sum.size": 3
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 61,
+                    "end_line": 11,
+                    "input_file": {
+                        "filename": "first_function.cairo"
+                    },
+                    "start_col": 53,
+                    "start_line": 11
+                }
+            },
+            "15": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.array_sum"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 2,
+                        "offset": 2
+                    },
+                    "reference_ids": {
+                        "__main__.array_sum.arr": 2,
+                        "__main__.array_sum.size": 3
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 62,
+                    "end_line": 11,
+                    "input_file": {
+                        "filename": "first_function.cairo"
+                    },
+                    "start_col": 25,
+                    "start_line": 11
+                }
+            },
+            "17": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.array_sum"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 3,
+                        "offset": 0
+                    },
+                    "reference_ids": {
+                        "__main__.array_sum.arr": 2,
+                        "__main__.array_sum.size": 3,
+                        "__main__.array_sum.sum_of_rest": 4
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 22,
+                    "end_line": 12,
+                    "input_file": {
+                        "filename": "first_function.cairo"
+                    },
+                    "start_col": 17,
+                    "start_line": 12
+                }
+            },
+            "18": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.array_sum"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 3,
+                        "offset": 1
+                    },
+                    "reference_ids": {
+                        "__main__.array_sum.__temp0": 5,
+                        "__main__.array_sum.arr": 2,
+                        "__main__.array_sum.size": 3,
+                        "__main__.array_sum.sum_of_rest": 4
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 36,
+                    "end_line": 12,
+                    "input_file": {
+                        "filename": "first_function.cairo"
+                    },
+                    "start_col": 17,
+                    "start_line": 12
+                }
+            },
+            "19": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.array_sum"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 3,
+                        "offset": 2
+                    },
+                    "reference_ids": {
+                        "__main__.array_sum.__temp0": 5,
+                        "__main__.array_sum.arr": 2,
+                        "__main__.array_sum.size": 3,
+                        "__main__.array_sum.sum_of_rest": 4
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 37,
+                    "end_line": 12,
+                    "input_file": {
+                        "filename": "first_function.cairo"
+                    },
+                    "start_col": 5,
+                    "start_line": 12
+                }
+            },
+            "20": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.main"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 4,
+                        "offset": 0
+                    },
+                    "reference_ids": {}
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 17,
+                    "end_line": 16,
+                    "input_file": {
+                        "filename": "first_function.cairo"
+                    },
+                    "start_col": 5,
+                    "start_line": 16
+                }
+            },
+            "22": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.main"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 4,
+                        "offset": 2
+                    },
+                    "reference_ids": {}
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 33,
+                    "end_line": 17,
+                    "input_file": {
+                        "filename": "first_function.cairo"
+                    },
+                    "start_col": 32,
+                    "start_line": 17
+                }
+            },
+            "24": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.main"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 4,
+                        "offset": 3
+                    },
+                    "reference_ids": {}
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 35,
+                    "end_line": 17,
+                    "input_file": {
+                        "filename": "first_function.cairo"
+                    },
+                    "start_col": 34,
+                    "start_line": 17
+                }
+            },
+            "26": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.main"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 4,
+                        "offset": 4
+                    },
+                    "reference_ids": {}
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 37,
+                    "end_line": 17,
+                    "input_file": {
+                        "filename": "first_function.cairo"
+                    },
+                    "start_col": 36,
+                    "start_line": 17
+                }
+            },
+            "28": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.main"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 4,
+                        "offset": 5
+                    },
+                    "reference_ids": {}
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 38,
+                    "end_line": 17,
+                    "input_file": {
+                        "filename": "first_function.cairo"
+                    },
+                    "start_col": 27,
+                    "start_line": 17
+                }
+            },
+            "30": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.main"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 4,
+                        "offset": 10
+                    },
+                    "reference_ids": {}
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 38,
+                    "end_line": 17,
+                    "input_file": {
+                        "filename": "first_function.cairo"
+                    },
+                    "start_col": 27,
+                    "start_line": 17
+                }
+            },
+            "32": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.main"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 4,
+                        "offset": 11
+                    },
+                    "reference_ids": {
+                        "__main__.main.__temp1": 6
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 38,
+                    "end_line": 17,
+                    "input_file": {
+                        "filename": "first_function.cairo"
+                    },
+                    "start_col": 5,
+                    "start_line": 17
+                }
+            },
+            "33": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.main"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 4,
+                        "offset": 11
+                    },
+                    "reference_ids": {
+                        "__main__.main.__temp1": 6,
+                        "__main__.main.array": 7
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 16,
+                    "end_line": 17,
+                    "input_file": {
+                        "filename": "first_function.cairo"
+                    },
+                    "parent_location": [
+                        {
+                            "end_col": 38,
+                            "end_line": 18,
+                            "input_file": {
+                                "filename": "first_function.cairo"
+                            },
+                            "start_col": 33,
+                            "start_line": 18
+                        },
+                        "While expanding the reference 'array' in:"
+                    ],
+                    "start_col": 11,
+                    "start_line": 17
+                }
+            },
+            "34": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.main"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 4,
+                        "offset": 12
+                    },
+                    "reference_ids": {
+                        "__main__.main.__temp1": 6,
+                        "__main__.main.array": 7
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 41,
+                    "end_line": 18,
+                    "input_file": {
+                        "filename": "first_function.cairo"
+                    },
+                    "start_col": 40,
+                    "start_line": 18
+                }
+            },
+            "36": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.main"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 4,
+                        "offset": 13
+                    },
+                    "reference_ids": {
+                        "__main__.main.__temp1": 6,
+                        "__main__.main.array": 7
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 42,
+                    "end_line": 18,
+                    "input_file": {
+                        "filename": "first_function.cairo"
+                    },
+                    "start_col": 23,
+                    "start_line": 18
+                }
+            },
+            "38": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.main"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 5,
+                        "offset": 0
+                    },
+                    "reference_ids": {
+                        "__main__.main.__temp1": 6,
+                        "__main__.main.array": 7,
+                        "__main__.main.sum": 8
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 19,
+                    "end_line": 18,
+                    "input_file": {
+                        "filename": "first_function.cairo"
+                    },
+                    "start_col": 10,
+                    "start_line": 18
+                }
+            },
+            "39": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.main"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 5,
+                        "offset": 0
+                    },
+                    "reference_ids": {
+                        "__main__.main.__temp1": 6,
+                        "__main__.main.array": 7,
+                        "__main__.main.sum": 9
+                    }
+                },
+                "hints": [],
+                "inst": {
+                    "end_col": 13,
+                    "end_line": 19,
+                    "input_file": {
+                        "filename": "first_function.cairo"
+                    },
+                    "start_col": 5,
+                    "start_line": 19
+                }
+            }
+        }
+    },
+    "hints": {},
+    "identifiers": {
+        "__main__.array_sum": {
+            "decorators": [],
+            "pc": 6,
+            "type": "function"
+        },
+        "__main__.array_sum.Args": {
+            "full_name": "__main__.array_sum.Args",
+            "members": {
+                "arr": {
+                    "cairo_type": "felt*",
+                    "offset": 0
+                },
+                "size": {
+                    "cairo_type": "felt",
+                    "offset": 1
+                }
+            },
+            "size": 2,
+            "type": "struct"
+        },
+        "__main__.array_sum.ImplicitArgs": {
+            "full_name": "__main__.array_sum.ImplicitArgs",
+            "members": {},
+            "size": 0,
+            "type": "struct"
+        },
+        "__main__.array_sum.Return": {
+            "full_name": "__main__.array_sum.Return",
+            "members": {
+                "sum": {
+                    "cairo_type": "felt",
+                    "offset": 0
+                }
+            },
+            "size": 1,
+            "type": "struct"
+        },
+        "__main__.array_sum.SIZEOF_LOCALS": {
+            "type": "const",
+            "value": 0
+        },
+        "__main__.array_sum.__temp0": {
+            "cairo_type": "felt",
+            "full_name": "__main__.array_sum.__temp0",
+            "references": [
+                {
+                    "ap_tracking_data": {
+                        "group": 3,
+                        "offset": 1
+                    },
+                    "pc": 18,
+                    "value": "[cast(ap + (-1), felt*)]"
+                }
+            ],
+            "type": "reference"
+        },
+        "__main__.array_sum.arr": {
+            "cairo_type": "felt*",
+            "full_name": "__main__.array_sum.arr",
+            "references": [
+                {
+                    "ap_tracking_data": {
+                        "group": 2,
+                        "offset": 0
+                    },
+                    "pc": 6,
+                    "value": "[cast(fp + (-4), felt**)]"
+                }
+            ],
+            "type": "reference"
+        },
+        "__main__.array_sum.size": {
+            "cairo_type": "felt",
+            "full_name": "__main__.array_sum.size",
+            "references": [
+                {
+                    "ap_tracking_data": {
+                        "group": 2,
+                        "offset": 0
+                    },
+                    "pc": 6,
+                    "value": "[cast(fp + (-3), felt*)]"
+                }
+            ],
+            "type": "reference"
+        },
+        "__main__.array_sum.sum_of_rest": {
+            "cairo_type": "felt",
+            "full_name": "__main__.array_sum.sum_of_rest",
+            "references": [
+                {
+                    "ap_tracking_data": {
+                        "group": 3,
+                        "offset": 0
+                    },
+                    "pc": 17,
+                    "value": "[cast(ap + (-1), felt*)]"
+                }
+            ],
+            "type": "reference"
+        },
+        "__main__.main": {
+            "decorators": [],
+            "pc": 20,
+            "type": "function"
+        },
+        "__main__.main.Args": {
+            "full_name": "__main__.main.Args",
+            "members": {},
+            "size": 0,
+            "type": "struct"
+        },
+        "__main__.main.ImplicitArgs": {
+            "full_name": "__main__.main.ImplicitArgs",
+            "members": {},
+            "size": 0,
+            "type": "struct"
+        },
+        "__main__.main.Return": {
+            "full_name": "__main__.main.Return",
+            "members": {},
+            "size": 0,
+            "type": "struct"
+        },
+        "__main__.main.SIZEOF_LOCALS": {
+            "type": "const",
+            "value": 2
+        },
+        "__main__.main.__temp1": {
+            "cairo_type": "felt",
+            "full_name": "__main__.main.__temp1",
+            "references": [
+                {
+                    "ap_tracking_data": {
+                        "group": 4,
+                        "offset": 11
+                    },
+                    "pc": 32,
+                    "value": "[cast(ap + (-1), felt*)]"
+                }
+            ],
+            "type": "reference"
+        },
+        "__main__.main.array": {
+            "cairo_type": "felt*",
+            "full_name": "__main__.main.array",
+            "references": [
+                {
+                    "ap_tracking_data": {
+                        "group": 4,
+                        "offset": 11
+                    },
+                    "pc": 33,
+                    "value": "[cast(fp, felt**)]"
+                }
+            ],
+            "type": "reference"
+        },
+        "__main__.main.sum": {
+            "cairo_type": "felt",
+            "full_name": "__main__.main.sum",
+            "references": [
+                {
+                    "ap_tracking_data": {
+                        "group": 5,
+                        "offset": 0
+                    },
+                    "pc": 38,
+                    "value": "[cast(ap + (-1), felt*)]"
+                },
+                {
+                    "ap_tracking_data": {
+                        "group": 5,
+                        "offset": 0
+                    },
+                    "pc": 39,
+                    "value": "[cast(fp + 1, felt*)]"
+                }
+            ],
+            "type": "reference"
+        },
+        "starkware.cairo.lang.compiler.lib.registers.get_ap": {
+            "decorators": [
+                "known_ap_change"
+            ],
+            "pc": 1,
+            "type": "function"
+        },
+        "starkware.cairo.lang.compiler.lib.registers.get_ap.Args": {
+            "full_name": "starkware.cairo.lang.compiler.lib.registers.get_ap.Args",
+            "members": {},
+            "size": 0,
+            "type": "struct"
+        },
+        "starkware.cairo.lang.compiler.lib.registers.get_ap.ImplicitArgs": {
+            "full_name": "starkware.cairo.lang.compiler.lib.registers.get_ap.ImplicitArgs",
+            "members": {},
+            "size": 0,
+            "type": "struct"
+        },
+        "starkware.cairo.lang.compiler.lib.registers.get_ap.Return": {
+            "full_name": "starkware.cairo.lang.compiler.lib.registers.get_ap.Return",
+            "members": {
+                "ap_val": {
+                    "cairo_type": "felt",
+                    "offset": 0
+                }
+            },
+            "size": 1,
+            "type": "struct"
+        },
+        "starkware.cairo.lang.compiler.lib.registers.get_ap.SIZEOF_LOCALS": {
+            "type": "const",
+            "value": 0
+        },
+        "starkware.cairo.lang.compiler.lib.registers.get_ap.fp_val": {
+            "cairo_type": "felt",
+            "full_name": "starkware.cairo.lang.compiler.lib.registers.get_ap.fp_val",
+            "references": [
+                {
+                    "ap_tracking_data": {
+                        "group": 1,
+                        "offset": 2
+                    },
+                    "pc": 3,
+                    "value": "[cast(ap + (-2), felt*)]"
+                }
+            ],
+            "type": "reference"
+        },
+        "starkware.cairo.lang.compiler.lib.registers.get_ap.pc_val": {
+            "cairo_type": "felt",
+            "full_name": "starkware.cairo.lang.compiler.lib.registers.get_ap.pc_val",
+            "references": [
+                {
+                    "ap_tracking_data": {
+                        "group": 1,
+                        "offset": 2
+                    },
+                    "pc": 3,
+                    "value": "[cast(ap + (-1), felt*)]"
+                }
+            ],
+            "type": "reference"
+        },
+        "starkware.cairo.lang.compiler.lib.registers.get_fp_and_pc": {
+            "decorators": [],
+            "pc": 0,
+            "type": "function"
+        },
+        "starkware.cairo.lang.compiler.lib.registers.get_fp_and_pc.Args": {
+            "full_name": "starkware.cairo.lang.compiler.lib.registers.get_fp_and_pc.Args",
+            "members": {},
+            "size": 0,
+            "type": "struct"
+        },
+        "starkware.cairo.lang.compiler.lib.registers.get_fp_and_pc.ImplicitArgs": {
+            "full_name": "starkware.cairo.lang.compiler.lib.registers.get_fp_and_pc.ImplicitArgs",
+            "members": {},
+            "size": 0,
+            "type": "struct"
+        },
+        "starkware.cairo.lang.compiler.lib.registers.get_fp_and_pc.Return": {
+            "full_name": "starkware.cairo.lang.compiler.lib.registers.get_fp_and_pc.Return",
+            "members": {
+                "fp_val": {
+                    "cairo_type": "felt",
+                    "offset": 0
+                },
+                "pc_val": {
+                    "cairo_type": "felt",
+                    "offset": 1
+                }
+            },
+            "size": 2,
+            "type": "struct"
+        },
+        "starkware.cairo.lang.compiler.lib.registers.get_fp_and_pc.SIZEOF_LOCALS": {
+            "type": "const",
+            "value": 0
+        }
+    },
+    "main_scope": "__main__",
+    "prime": "0x800000000000011000000000000000000000000000000000000000000000001",
+    "reference_manager": {
+        "references": [
+            {
+                "ap_tracking_data": {
+                    "group": 1,
+                    "offset": 2
+                },
+                "pc": 3,
+                "value": "[cast(ap + (-2), felt*)]"
+            },
+            {
+                "ap_tracking_data": {
+                    "group": 1,
+                    "offset": 2
+                },
+                "pc": 3,
+                "value": "[cast(ap + (-1), felt*)]"
+            },
+            {
+                "ap_tracking_data": {
+                    "group": 2,
+                    "offset": 0
+                },
+                "pc": 6,
+                "value": "[cast(fp + (-4), felt**)]"
+            },
+            {
+                "ap_tracking_data": {
+                    "group": 2,
+                    "offset": 0
+                },
+                "pc": 6,
+                "value": "[cast(fp + (-3), felt*)]"
+            },
+            {
+                "ap_tracking_data": {
+                    "group": 3,
+                    "offset": 0
+                },
+                "pc": 17,
+                "value": "[cast(ap + (-1), felt*)]"
+            },
+            {
+                "ap_tracking_data": {
+                    "group": 3,
+                    "offset": 1
+                },
+                "pc": 18,
+                "value": "[cast(ap + (-1), felt*)]"
+            },
+            {
+                "ap_tracking_data": {
+                    "group": 4,
+                    "offset": 11
+                },
+                "pc": 32,
+                "value": "[cast(ap + (-1), felt*)]"
+            },
+            {
+                "ap_tracking_data": {
+                    "group": 4,
+                    "offset": 11
+                },
+                "pc": 33,
+                "value": "[cast(fp, felt**)]"
+            },
+            {
+                "ap_tracking_data": {
+                    "group": 5,
+                    "offset": 0
+                },
+                "pc": 38,
+                "value": "[cast(ap + (-1), felt*)]"
+            },
+            {
+                "ap_tracking_data": {
+                    "group": 5,
+                    "offset": 0
+                },
+                "pc": 39,
+                "value": "[cast(fp + 1, felt*)]"
+            }
+        ]
+    }
+}
