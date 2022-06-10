@@ -148,27 +148,36 @@ end
 
 func main{output_ptr : felt*, range_check_ptr}():
     alloc_locals
-    const NUM_STEPS = 4
 
-    local loc_tuple : (
-        Location, Location, Location, Location, Location
-    ) = (
-        Location(row=0, col=2),
-        Location(row=1, col=2),
-        Location(row=1, col=3),
-        Location(row=2, col=3),
-        Location(row=3, col=3),
-        )
+    # Declare two variables that will point to the two lists and
+    # another variable that will contain the number of steps.
+    local loc_list : Location*
+    local tile_list : felt*
+    local n_steps
 
-    local tiles : (felt, felt, felt, felt) = (3, 7, 8, 12)
+    %{
+        # The verifier doesn't care where those lists are
+        # allocated or what values they contain, so we use a hint
+        # to populate them.
+        locations = program_input['loc_list']
+        tiles = program_input['tile_list']
 
-    # Get the value of the frame pointer register (fp) so that
-    # we can use the address of loc0.
-    let (__fp__, _) = get_fp_and_pc()
+        ids.loc_list = loc_list = segments.add()
+        for i, val in enumerate(locations):
+            memory[loc_list + i] = val
+
+        ids.tile_list = tile_list = segments.add()
+        for i, val in enumerate(tiles):
+            memory[tile_list + i] = val
+
+        ids.n_steps = len(tiles)
+
+        # Sanity check (only the prover runs this check).
+        assert len(locations) == 2 * (len(tiles) + 1)
+    %}
+
     check_solution(
-        loc_list=cast(&loc_tuple, Location*),
-        tile_list=cast(&tiles, felt*),
-        n_steps=NUM_STEPS,
+        loc_list=loc_list, tile_list=tile_list, n_steps=n_steps
     )
     return ()
 end
